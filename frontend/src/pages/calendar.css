@@ -1,0 +1,63 @@
+/* calendar.css */
+
+.custom-calendar {
+    border: none;
+    border-radius: 1rem;
+    background-color: #fff7ed;
+    padding: 1rem;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title (month and year) */
+  .react-calendar__navigation button {
+    background: none;
+    color: #ea580c;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  /* Days of the week */
+  .react-calendar__month-view__weekdays {
+    text-align: center;
+    font-weight: 500;
+    color: #9a3412;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+  
+  /* Day tiles */
+  .react-calendar__tile {
+    padding: 0.75rem 0.5rem;
+    border-radius: 0.5rem;
+    background: none;
+    color: #4b5563;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus {
+    background: #fed7aa;
+    color: #9a3412;
+  }
+  
+  /* Selected day */
+  .react-calendar__tile--active {
+    background: #fb923c;
+    color: white;
+    border-radius: 0.75rem;
+  }
+  
+  /* Range selection */
+  .react-calendar__tile--rangeStart,
+  .react-calendar__tile--rangeEnd {
+    background: #ea580c;
+    color: white;
+  }
+  
+  .react-calendar__tile--range {
+    background: #fcd34d;
+    color: #78350f;
+  }
+  
